@@ -116,7 +116,7 @@ For more details, follow the readme file in the package.
 <p>The pipeline consists of follwoing tasks. To run a task, type bpb3 <task> [<args>]. To see what are the options for each task of the pipeline, please run: bpb3 -h </p>
 
 <ul>
-	<li><code><a href="https://github.com/Omer0191/bpb3/blob/7d2817197762ae6104e5d2e3d9212d6c9a717013/differential_expression">differential_expression</a></code> : Predict differentialy expressed genes (DEG) based on two group of samples.</li>
+	<li><code><a href="https://github.com/Omer0191/bpb3/blob/7d2817197762ae6104e5d2e3d9212d6c9a717013/differential_expression.html">differential_expression</a></code> : Predict differentialy expressed genes (DEG) based on two group of samples.</li>
 	<li><code>gene_regions</code> : Extracts regions near transcription start sites of selected genes based on genCode gtf. </li>
 	<li><code>mussd</code> : Mutation filtering based on the Space and Sample Distribution - MuSSD.</li>
 	<li><code>highly_mutated_blocks</code> : Find blocks with significantly more mutations than would be expected.</li>
