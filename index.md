@@ -77,9 +77,19 @@ Prior to installing the package, dependencies must be fulfilled. List of depende
 	</ul>
 It is advised to install dependencies using miniconda.
 Package contains a file requirments.txt which can be used for automatic installation of dependencies from conda or pip.
-To install the package, go to the AffinityPropogation_Clustering directory and type: python setup.py install
-For more detials, follow the readme file in the package
+To install the package, go to the bpb3_git directory and type: python setup.py install
+For more detials, follow the readme file in the package.
 </div>
+## Installation:
+<div class="container-fluid abstract_des">
+		
+<p>You can download and install the package by follwing steps:
+	</p>
+<pre class="bash"><code class="hljs"><span class="hljs-comment"> tar -zxf bpb3_git.tgz</span>
+<span class="hljs-comment"> cd bpb3</span>
+<span class="hljs-comment"> python setup.py install</span></code></pre>
+	
+	
 	
 ## Contents of the package:
 <div class="container-fluid abstract_des">
@@ -100,23 +110,22 @@ For more detials, follow the readme file in the package
 
 ## Pipeline Tasks:
 <div class="container-fluid abstract_des">
-<p>The pipeline consists of follwoing tasks. To run a task, type abc4pwm <task> [<args>]. To see what are the options for each task of the pipeline, please run: abc4pwm -h </p>
+<p>The pipeline consists of follwoing tasks. To run a task, type bpb3 <task> [<args>]. To see what are the options for each task of the pipeline, please run: abc4pwm -h </p>
 
 <ul>
-	<li><code>cleandatabase_for_classification</code> : Uniformly TF named database for associating pwms with DNA binding domain.</li>
-	<li><code>classification</code> : Classification of input pwms into their DNA binding domains.</li>
-	<li><code>clustering</code> : Clustering of similar looking position weight matrices.</li>
-	<li><code>representative_motif</code> : This module makes a representative mofit of the cluster.</li>
-	<li><code>quality_assessment</code>: This modules automatically asses the quality of clusters of pwms.</li>
-	<li><code>visualize</code>: To visualize the clusters through boxplots etc.</li>
-	<li><code>plot_cluster_motifs</code> : To plot the sequence motif of clusters' pws and representative motif.</li>
-	<li><code>text_tfdb</code> : Obtaining a database in text formate with details of sources and names used in package.</li>
-	<li><code>ensemble_learning</code> : A module to predict pwms using bayesPI with ensemble learning.</li>
-	<li><code>ensemble_investigate</code>: A module to cluster and search the predicted pwms against a database.</li>
-	<li><code>conversion</code>: Conversion of files from one (e.g., ab4pwm) to other (e.g., TRANSFAC, JASPAR).</li>
-	<li><code>searching</code>: A module to search a TF pwm (motif) against the database..</li>
-
-
+	<li><code>differential_expression</code> : Predict differentialy expressed genes (DEG) based on two group of samples.</li>
+	<li><code>gene_regions</code> : Extracts regions near transcription start sites of selected genes based on genCode gtf. </li>
+	<li><code>mussd</code> : Mutation filtering based on the Space and Sample Distribution - MuSSD.</li>
+	<li><code>highly_mutated_blocks</code> : Find blocks with significantly more mutations than would be expected.</li>
+	<li><code>bayespi_bar</code>: BayesPI-BAR delta-dbA ranking computation for TF binding affinity affected by DNA mutation.</li>
+	<li><code>choose_background_parameters</code>: Selects parameters for mutation background computation.</li>
+	<li><code>background_affinity_changes</code> : Mutation background computation.</li>
+	<li><code>affinity_change_significance_test</code> : Significant test of TF binding affinity changes between foreground and background affinity changes.</li>
+	<li><code>parallel</code> : Run commands from the given file in parallel.</li>
+	<li><code>make_cluster4pwm</code>: Make input PWM files for bpb3 based on clustered PWMs.</li>
+	<li><code>bpb3selectedPWM</code>: The second level analysis of bpb3 by using the top PWMs in TF ranking after the first level analysis of bpb3 based on the clustered PWMs.</li>
+	<li><code>run_pipeline</code>: Run full bpb3 pipeline (e.g., the first level analysis of bpb3 if clustered PWMs are used in the calculation).</li>
+	<li><code>clean_tmp</code>: Clean temporary files from output folders.</li>
 
 </ul>	
 
