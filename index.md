@@ -1,8 +1,9 @@
-![helsesorost](https://user-images.githubusercontent.com/79196757/116503417-50eaa000-a8b6-11eb-9925-382c86dc97c9.png) ![ous](https://user-images.githubusercontent.com/79196757/116503445-652e9d00-a8b6-11eb-8985-df71a9a4b9f2.png)
+![helsesorost](https://user-images.githubusercontent.com/79196757/116503417-50eaa000-a8b6-11eb-9925-382c86dc97c9.png) ![ous](https://user-images.githubusercontent.com/79196757/116503445-652e9d00-a8b6-11eb-8985-df71a9a4b9f2.png)![uio_segl_a](https://user-images.githubusercontent.com/79196757/179632843-0bd8b826-7fe3-4d3e-81c0-cf53647375b6.png)
+
 
 # BayesPI-BAR in Python3 - bpb3
 
-bpb3 is a software tool for Bayesian method for proteinâ€“DNA interaction with binding affinity Ranking in Python3.
+bpb3 is a software tool for Bayesian method for protein-DNA interaction with binding affinity Ranking in Python3.
 
 ## Authors:
 
@@ -78,8 +79,10 @@ Prior to installing the package, dependencies must be fulfilled. List of depende
 It is advised to install dependencies using miniconda.
 Package contains a file requirments.txt which can be used for automatic installation of dependencies from conda or pip.
 To install the package, go to the bpb3_git directory and type: python setup.py install
-For more detials, follow the readme file in the package.
+For more details, follow the readme file in the package.
 </div>
+	
+	
 ## Installation:
 <div class="container-fluid abstract_des">
 		
@@ -97,12 +100,12 @@ For more detials, follow the readme file in the package.
 <p>The package folder will contain following:
 	</p>
 <ul>
-	<li><code>demo</code> : Contains demo data sets.</li>
-	<li><code>abc4pwm</code> : Contains python soruce code of pipeline.</li>
+	<li><code>final_demo</code> : Contains demo data sets.</li>
+	<li><code>bpb3</code> : Contains python soruce code of pipeline.</li>
 	<li><code>readme.txt</code> : Instructions about usage of package.</li>
 	<li><code>requirments.txt</code> :  List of requirments. Can be used for automatic installation from miniconda or pip.</li>
 	<li><code>setup.py</code>: Setup file for package.</li>
-	<li><code>data</code>: Contains in and out for demo.</li>
+	<li><code>final_demo_data</code>: Contains demo data.</li>
 
 
 </ul>	
@@ -110,7 +113,7 @@ For more detials, follow the readme file in the package.
 
 ## Pipeline Tasks:
 <div class="container-fluid abstract_des">
-<p>The pipeline consists of follwoing tasks. To run a task, type bpb3 <task> [<args>]. To see what are the options for each task of the pipeline, please run: abc4pwm -h </p>
+<p>The pipeline consists of follwoing tasks. To run a task, type bpb3 <task> [<args>]. To see what are the options for each task of the pipeline, please run: bpb3 -h </p>
 
 <ul>
 	<li><code>differential_expression</code> : Predict differentialy expressed genes (DEG) based on two group of samples.</li>
@@ -129,11 +132,36 @@ For more detials, follow the readme file in the package.
 
 </ul>	
 
+	
 ## Demo
 <div class="container-fluid abstract_des">
 
-<p>Test run is available on human pwms data, present in demo folder.
-In folder abc4pwm/demo , there demos of all modules and study cases which can be run by entering: ./demo , in the command line to run the demo automatically.
-In folder abc4pwm/demo , there demos of all modules and study cases. </p>
+<p>Test run is available in final_demo folder.
+In folder bpb3/final_demo , there demos of following modules: </p>
 
-Having trouble with package? Contact us @ omerali.0191@gmail.com, junbai.wang@medisin.uio.no and we will be glad to help you.
+<ul>
+	<li><code>plot_result</code> : Generate heatmaps for selected mutation blocks. (demo)</li>
+	<li><code>filter_results_by_gene_expression_cluster4pwm</code> : Filter those TF whose expression is too low in clustered PWMs. (demo)</li>
+	<li><code>filter_results_by_gene_expression</code> : Filter those TFs whose expression is too low (e.g., RPKM<0.03). (demo)</li>
+	<li><code>make_plots_cluster4pwm</code> : Make heatmap plots for all significant mutation blocks that affecting clustered PWMs. (demo)</li>
+	<li><code>make_plots</code>: Make heatmap plots for all significant mutation blocks that affecting PWMs. (demo)</li>
+	<li><code>check_accuracy4cluster</code>: Check accuracy for 67 SNPs that based on clustered PWMs. (demo)</li>
+	<li><code>check_accuracy</code> : Check accuracy for 67 SNPs that based on original PWMs. (demo)</li>
+	<li><code>filterDEG4bpb3</code> : Filter bpb3 exported differential expression gene list by rratios. (demo)</li>
+	<li><code>preprocess_icgc_data</code> : Preprocess of ICGC data such as a folder contains files donor_*, specimen, simple_somatic*, exp_seq.tsv et al. (demo)</li>
+	
+</ul>
+	
+
+	
+	
+          		 
+         	
+         		
+         		
+         			
+         	
+         		
+         		
+         	
+Having trouble with package? Contact us @ junbai.wang@medisin.uio.no and we will be glad to help you.
