@@ -23,11 +23,6 @@ bpb3 is a software tool for Bayesian method for protein-DNA interaction with bin
 </head>
 
 
-<div class="container-fluid abstract_des">
-
-	
-	BayesPI-BAR3 (or bpb3) is Bayesian method for protein–DNA interaction with binding affinity Ranking in Python3. 
-	</div>
 
 ## Abstract
 
