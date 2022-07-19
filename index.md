@@ -42,9 +42,11 @@ It significantly simplifies the application of bpb3 in different tasks. Demos of
 </p>
 	
 </div>
-
+	
+	
 
 ## How to start:
+	
 <div class="container-fluid abstract_des">
 bpb3 is written in python. It can be installed and accessed from command line and is avalible for both linux and mac operating systems. The package can be downloaded <strong> here </strong> .
 
@@ -109,9 +111,12 @@ For more details, follow the readme file in the package.
 
 
 </ul>	
+	
 [gene_regions](gene_regions.md)
 
+	
 ## Pipeline Tasks:
+	
 <div class="container-fluid abstract_des">
 <p>The pipeline consists of follwoing tasks. To run a task, type bpb3 <task> [<args>]. To see what are the options for each task of the pipeline, please run: bpb3 -h </p>
 
