@@ -130,7 +130,10 @@ For more details, follow the readme file in the package.
 
 </ul>
 	
-## Click on the module for more details:
+## Module details:
+
+For more details of individual module and parameters, please go to repsective module page.
+
 [differential_expression](differential_expression.md)  
 [gene_regions](gene_regions.md)  
 [mussd](mussd.md)  
