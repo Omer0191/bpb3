@@ -2,6 +2,11 @@
 
 bpb3 is a software tool for Bayesian method for protein-DNA interaction with binding affinity Ranking in Python3.
 
+##
+[Home](index.md) | [Differential Expression](differential_expression.md) | [Gene Regions](gene_regions.md) | [Mussd](mussd.md) | [Highly Mutated Blocks](highly_mutated_blocks.md) | [BayesPiBar](bayespi_bar.md) | [Choose Background Parameters](choose_background_parameters.md) | [Background Affinity Changes](background_affinity_changes.md) | [Affinity Change Significance](affinity_change_significance_test.md) | [Parallel](parallel.md) | [Cluster for PWMs](make_cluster4pwm.md) | [bpb3 SelectedPWM](bpb3selectedPWM.md) | [Run Pipeline](run_pipeline.md) | [Clean temp](clean_tmp.md) 
+##
+
+
 ## mussd
 <p>Mutation filtering based on the Space and Sample Distribution - MuSSD.</p>
 
@@ -31,6 +36,3 @@ bpb3 is a software tool for Bayesian method for protein-DNA interaction with bin
 <li><code>patient_germline_mutations: </code>list of VCF files with germline mutations, one per patient. The order of files must correspond to theorder of --patient_mutations list. The reference sequences for patients will contain these mutations. default is None</li>
 </ul>
 
-
-## Modules:
-[Home](index.md) | [Differential Expression](differential_expression.md) | [Gene Regions](gene_regions.md) | [Mussd](mussd.md) | [Highly Mutated Blocks](highly_mutated_blocks.md) | [BayesPiBar](bayespi_bar.md) | [Choose Background Parameters](choose_background_parameters.md) | [Background Affinity Changes](background_affinity_changes.md) | [Affinity Change Significance](affinity_change_significance_test.md) | [Parallel](parallel.md) | [Cluster for PWMs](make_cluster4pwm.md) | [bpb3 SelectedPWM](bpb3selectedPWM.md) | [Run Pipeline](run_pipeline.md) | [Clean temp](clean_tmp.md) 
