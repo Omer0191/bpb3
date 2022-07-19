@@ -2,10 +2,10 @@
 
 bpb3 is a software tool for Bayesian method for protein-DNA interaction with binding affinity Ranking in Python3.
 
-##
+
  
 [Home](index.md) | [Differential Expression](differential_expression.md) | [Gene Regions](gene_regions.md) | [Mussd](mussd.md) | [Highly Mutated Blocks](highly_mutated_blocks.md) | [BayesPiBar](bayespi_bar.md) | [Choose Background Parameters](choose_background_parameters.md) | [Background Affinity Changes](background_affinity_changes.md) | [Affinity Change Significance](affinity_change_significance_test.md) | [Parallel](parallel.md) | [Cluster for PWMs](make_cluster4pwm.md) | [bpb3 SelectedPWM](bpb3selectedPWM.md) | [Run Pipeline](run_pipeline.md) | [Clean temp](clean_tmp.md) 
-##
+
 
 ## differential_expression
 <p>This program determines which genes are differentially expressed based on RNA-seq data for two groups of samples. RPKM values arecomputed for each sample, optionally normalized, and Kolmogorov-Smirnov test/T-test is then applied to them to determine significant difference between distributions of values of the two groups. Order of optional normalizations: 
