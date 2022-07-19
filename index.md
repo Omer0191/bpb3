@@ -1,7 +1,7 @@
 ![helsesorost](https://user-images.githubusercontent.com/79196757/116503417-50eaa000-a8b6-11eb-9925-382c86dc97c9.png) ![ous](https://user-images.githubusercontent.com/79196757/116503445-652e9d00-a8b6-11eb-8985-df71a9a4b9f2.png)![uio_segl_a](https://user-images.githubusercontent.com/79196757/179632843-0bd8b826-7fe3-4d3e-81c0-cf53647375b6.png)
 
 
-# BayesPI-BAR in Python3 - bpb3
+# BayesPI-BAR in Python3 - bpb3 Documentation
 
 bpb3 is a software tool for Bayesian method for protein-DNA interaction with binding affinity Ranking in Python3.
 
