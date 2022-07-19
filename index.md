@@ -26,7 +26,6 @@ bpb3 is a software tool for Bayesian method for protein-DNA interaction with bin
 ## Abstract
 <div class="container-fluid abstract_des">
 
-<div class="row"> 
 	<p> 
 	BayesPI-BAR3 (or bpb3) is Bayesian method for protein–DNA interaction with binding affinity Ranking in Python3. 
 It is a command line tool, which not only includes all R functions of previous BayesPI-BAR [1] and Python2 modules of BayesPI-BAR2[2,3], 
@@ -109,7 +108,7 @@ For more details, follow the readme file in the package.
 
 </ul>	
 	
-
+</div>
 
 	
 ## Pipeline Tasks:
@@ -132,9 +131,10 @@ For more details, follow the readme file in the package.
 	<li><code>run_pipeline</code>: Run full bpb3 pipeline (e.g., the first level analysis of bpb3 if clustered PWMs are used in the calculation).</li>
 	<li><code>clean_tmp</code>: Clean temporary files from output folders.</li>
 
-</ul>	
- 
-Click on the module for more details:
+</ul>
+	
+	
+### Click on the module for more details:
 [differential_expression](differential_expression.md)
 [gene_regions](gene_regions.md)  
 [mussd](mussd.md)
