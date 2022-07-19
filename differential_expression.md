@@ -1,3 +1,7 @@
+# BayesPI-BAR in Python3 - bpb3 Documentation
+
+bpb3 is a software tool for Bayesian method for protein-DNA interaction with binding affinity Ranking in Python3.
+
 ## differential_expression
 <p>This program determines which genes are differentially expressed based on RNA-seq data for two groups of samples. RPKM values arecomputed for each sample, optionally normalized, and Kolmogorov-Smirnov test/T-test is then applied to them to determine significant difference between distributions of values of the two groups. Order of optional normalizations: 
     
