@@ -38,7 +38,8 @@ Then, the parameter configure file can be directly loaded into bpb3 package for 
 It significantly simplifies the application of bpb3 in different tasks. Demos of these new functions and examples are provided in the package.
 </p>
 	
-
+## Modules:
+[Home](index.md) | [differential_expression](differential_expression.md) | [gene_regions](gene_regions.md) | [mussd](mussd.md) | [highly_mutated_blocks](highly_mutated_blocks.md) | [bayespi_bar](bayespi_bar.md) | [choose_background_parameters](choose_background_parameters.md) | [background_affinity_changes](background_affinity_changes.md) | [affinity_change_significance_test](affinity_change_significance_test.md) | [parallel](parallel.md) | [make_cluster4pwm](make_cluster4pwm.md) | [bpb3selectedPWM](bpb3selectedPWM.md) | [run_pipeline](run_pipeline.md) | [clean_tmp](clean_tmp.md) 
 	
 ## How to start:
 <div class="container-fluid abstract_des">
