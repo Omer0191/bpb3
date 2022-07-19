@@ -42,11 +42,9 @@ It significantly simplifies the application of bpb3 in different tasks. Demos of
 </p>
 	
 </div>
-	
-	
 
-## How to start:
 	
+## How to start:
 <div class="container-fluid abstract_des">
 bpb3 is written in python. It can be installed and accessed from command line and is avalible for both linux and mac operating systems. The package can be downloaded <strong> here </strong> .
 
@@ -93,8 +91,7 @@ For more details, follow the readme file in the package.
 <pre class="bash"><code class="hljs"><span class="hljs-comment"> tar -zxf bpb3_git.tgz</span>
 <span class="hljs-comment"> cd bpb3</span>
 <span class="hljs-comment"> python setup.py install</span></code></pre>
-	
-	
+		
 	
 ## Contents of the package:
 <div class="container-fluid abstract_des">
