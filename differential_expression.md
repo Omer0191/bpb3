@@ -21,10 +21,9 @@
 
 <ul>    
     
-    <li><code>output_file: </code>Output file name. Two columns will be written: gene name and the corresponding KS test P-value. Only genes with P-values smaller than the threshold given by --p_value parameter will be written, default is -.</li>
-  <li><code>output_group_1_rpkm:  </code>Output file name for gene expression in group 1. Two columns will be written: gene name and the corresponding median RPKM (quantile-normalized if --quantile_normalization is specified across group 1 counts. default is None.</li>
-  <li><code>output_group_2_rpkm: </code>Output file name for gene expression in group 2. Two columns will be written: gene name and the corresponding median RPKM (quantile-normalized if --quantile_normalization is specified ) across group 2 counts. default is None</li>
-  <li><code>p_value: </code>(float) P-value cutoff for the KS test or T-test, default= 0.05.</li>
+  <li><code>output_group_1_rpkm:  </code> Output file name for gene expression in group 1. Two columns will be written: gene name and the corresponding median RPKM (quantile-normalized if --quantile_normalization is specified across group 1 counts. default is None.</li>
+  <li><code>output_group_2_rpkm: </code> Output file name for gene expression in group 2. Two columns will be written: gene name and the corresponding median RPKM (quantile-normalized if --quantile_normalization is specified ) across group 2 counts. default is None</li>
+  <li><code>p_value: </code> (float) P-value cutoff for the KS test or T-test, default= 0.05.</li>
   <li><code>quantile_normalization: </code>Do not rr. This mode can handle partially computed results from an interrupted computation. Only the missing or corrupted output will be recomputed. default is False.</li>
   <li><code>integration: </code> (bool) Apply quantile normalization to RPKM values of all experiments, default is False. </li>
   <li><code>log_transform:  </code>(bool) Apply log-transformation (ln(1 + x)) to all values, default is False</li>
@@ -33,6 +32,8 @@
   <li><code>min_medianRPKM: </code>(float) Check the median of RPKM in each group, and only keep genes with RPKM greater than the minimum value in bith groups.If quantile normalization is activated, then the quantile normalized values are checked, default is None" </li>
   <li><code>output_all_values: (float) </code>Put values (RPKM or their z-scores) for all input datasets as additional columns in the output file, default is False."</li>
   <li><code>test_method:  </code>(int) Differential expression test methods: 0 for KS-test, 1 for T-test, default is 0 for KS-test</li>
+  <li><code>output_file:  </code>Output file name. Two columns will be written: gene name and the corresponding KS test P-value. Only genes with P-values smaller than the threshold given by --p_value parameter will be written, default is -.</li>
+
 </ul>
 
 
