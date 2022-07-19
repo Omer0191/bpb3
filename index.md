@@ -27,8 +27,8 @@ bpb3 is a software tool for Bayesian method for protein-DNA interaction with bin
 <div class="container-fluid abstract_des">
 
 	
-	<p>BayesPI-BAR3 (or bpb3) is Bayesian method for protein–DNA interaction with binding affinity Ranking in Python3. 
-It is a command line tool, which not only includes all R functions of previous BayesPI-BAR [1] and Python2 modules of BayesPI-BAR2[2,3], 
+	BayesPI-BAR3 (or bpb3) is Bayesian method for protein–DNA interaction with binding affinity Ranking in Python3. 
+<p>It is a command line tool, which not only includes all R functions of previous BayesPI-BAR [1] and Python2 modules of BayesPI-BAR2[2,3], 
 but also add a number of new functions and modules in the new bpb3 package (e.g., preprocess of download data from ICGC data portal, 
 generate heatmap for predicted significant TF binding affinity changes, estimate significant TF binding affinity changes by using 
 either clustered PWMs [5] or a two levels approach, and clean temporary files et al.) Especially, the previous BayesPI-BAR programs 
@@ -141,6 +141,12 @@ For more details, follow the readme file in the package.
 [choose_background_parameters](choose_background_parameters.md)  
 [background_affinity_changes](background_affinity_changes.md)  
 [affinity_change_significance_test](affinity_change_significance_test.md)  
+[parallel](parallel.md)  
+[make_cluster4pwm](make_cluster4pwm.md)  
+[bpb3selectedPWM](bpb3selectedPWM.md)  
+[run_pipeline](run_pipeline.md)  
+[clean_tmp](clean_tmp.md)  
+
 	
 ## Demo
 <div class="container-fluid abstract_des">
@@ -160,15 +166,12 @@ In folder bpb3/final_demo , there demos of following modules: </p>
 	<li><code>preprocess_icgc_data</code> : Preprocess of ICGC data such as a folder contains files donor_*, specimen, simple_somatic*, exp_seq.tsv et al. (demo)</li>
 	
 </ul>
-	
-
+</div>
 	
 	
           		 
          	
-         		
-         		
-         			
+           			
          	
          		
          		
