@@ -39,7 +39,7 @@ It significantly simplifies the application of bpb3 in different tasks. Demos of
 </p>
 	
 ## Modules:
-[Home](index.md) | [differential_expression](differential_expression.md) | [gene_regions](gene_regions.md) | [mussd](mussd.md) | [highly_mutated_blocks](highly_mutated_blocks.md) | [bayespi_bar](bayespi_bar.md) | [choose_background_parameters](choose_background_parameters.md) | [background_affinity_changes](background_affinity_changes.md) | [affinity_change_significance_test](affinity_change_significance_test.md) | [parallel](parallel.md) | [make_cluster4pwm](make_cluster4pwm.md) | [bpb3selectedPWM](bpb3selectedPWM.md) | [run_pipeline](run_pipeline.md) | [clean_tmp](clean_tmp.md) 
+[Home](index.md) | [Differential Expression](differential_expression.md) | [Gene Regions](gene_regions.md) | [Mussd](mussd.md) | [Highly Mutated Blocks](highly_mutated_blocks.md) | [BayesPiBar](bayespi_bar.md) | [Choose Background Parameters](choose_background_parameters.md) | [Background Affinity Changes](background_affinity_changes.md) | [Affinity Change Significance](affinity_change_significance_test.md) | [Parallel](parallel.md) | [Cluster for PWMs](make_cluster4pwm.md) | [bpb3 SelectedPWM](bpb3selectedPWM.md) | [Run Pipeline](run_pipeline.md) | [Clean temp](clean_tmp.md) 
 	
 ## How to start:
 <div class="container-fluid abstract_des">
