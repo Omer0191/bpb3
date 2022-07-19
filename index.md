@@ -134,9 +134,9 @@ For more details, follow the readme file in the package.
 
 </ul>	
  
-	Click on the module for more details:
-	[differential_expression](differential_expression.md)
-	 [gene_regions](gene_regions.md)  
+Click on the module for more details:
+[differential_expression](differential_expression.md)
+[gene_regions](gene_regions.md)  
 [mussd](mussd.md)
 [highly_mutated_blocks](highly_mutated_blocks.md)
 [bayespi_bar](bayespi_bar.md)
