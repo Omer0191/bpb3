@@ -1,3 +1,7 @@
+# BayesPI-BAR in Python3 - bpb3 Documentation
+
+bpb3 is a software tool for Bayesian method for protein-DNA interaction with binding affinity Ranking in Python3.
+
 ## bayespi_bar
 <p>BayesPI-BAR delta-dbA ranking computation for TFs binding affinity changes affected by DNA mutations. This program computes rankings of given PWMs/clustered PWMs according to predicted effects of given sequence variants. This module needs following paramters. Details are given as under: </p>
 
