@@ -168,7 +168,33 @@ In folder bpb3/final_demo , there demos of following modules: </p>
 	
 </ul>
 </div>
-	
+
+## References
+
+1. BayesPI-BAR: a new biophysical model for characterization of regulatory sequence variations
+Junbai Wang and Kirill Batmanov
+Nucleic Acids Research 2015, July
+
+2. Integrative whole-genome sequence analysis reveals roles of regulatory mutations in BCL6 and BCL2 in follicular lymphoma.
+Batmanov K, Wang W, Bjoras M, Delabie J, Wang J.
+Sci Rep. 2017 Aug 1;7(1):7040. doi: 10.1038/s41598-017-07226-4.
+
+3. BayesPI-BAR2: a new Python package for predicting functional non-coding mutations in cancer patient cohorts.
+K. Batmanov , J. Delabie and JB Wang.
+Front Genet. 2019 Apr 2;10:282.
+
+4. HMST-Seq-Analyzer: A new python tool for differential methylation and hydroxymethylation analysis in various DNA methylation sequencing data.
+A. Farooq, S. GrÃ¸nmyr, O. Ali, T. Rognes, K. Scheffier, M. BjÃ¸rÃ¥s, JB. Wang.
+Computational and Structural Biotechnology Journal. 2020 September.
+
+5. abc4pwm: affinity based clustering for position weight matrices in applications of DNA sequence analysis.
+Omer Ali, Amna Farooq, Mingyi Yang, Victor X. Jin, Magnar BjÃ¸rÃ¥s and Junbai Wang.
+BMC Bioinformatics. 2022 March.
+
+6. Integrating whole genome sequencing, methylation, gene expression, topological associated domain information in regulatory mutation prediction: a study of follicular lymphoma.
+Amna Farooq, Gunhild TrÃ¸en, Jan Delabie, Junbai Wang.
+Computational and Structural Biotechnology Journal. 2022 March.
+
 	
           		 
          	
