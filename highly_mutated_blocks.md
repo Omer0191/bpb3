@@ -2,7 +2,7 @@
 <p>This program finds which blocks produced by mussd.py have significantly more mutations than would be expected if all mutations were uniformly distributed across regions of interest. </p>
 
 ### Required Parameters
-ul>
+<ul>
 
   <li><code>blocks_folder: </code> The folder containing mussd.py output</li>
 
