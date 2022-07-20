@@ -12,7 +12,7 @@ bpb3 is a software tool for Bayesian method for protein-DNA interaction with bin
 
 
 
- 
+ ## Required parameters:
 <ul>
     <li><code>blocks_folder: </code> The folder containing mussd.py output.</li>
 <li><code>block_ids: </code> The space-separated list of block IDs against which the background model is being made</li>
@@ -26,6 +26,8 @@ bpb3 is a software tool for Bayesian method for protein-DNA interaction with bin
 
 </ul>
 
+
+## Optional parameters:
 <ul>
   
   <li><code>output_file: </code> output file name. It will contain the command to create the background model, default is -</li>
