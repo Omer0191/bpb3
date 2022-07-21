@@ -1,3 +1,5 @@
+<img src="[helse-sor-ost.jpg](helse-sor-ost.png)" alt="helsesorost" width="200"/>
+
 ![helsesorost](https://user-images.githubusercontent.com/79196757/116503417-50eaa000-a8b6-11eb-9925-382c86dc97c9.png) ![ous](https://user-images.githubusercontent.com/79196757/116503445-652e9d00-a8b6-11eb-8985-df71a9a4b9f2.png)![uio_segl_a](https://user-images.githubusercontent.com/79196757/179632843-0bd8b826-7fe3-4d3e-81c0-cf53647375b6.png)
 
 
@@ -5,17 +7,7 @@
 
 bpb3 is a software tool for Bayesian method for protein-DNA interaction with binding affinity Ranking in Python3.
 
-## Authors:
 
-  <p align="center"><strong>  Junbai Wang <sup>1*,2,5</sup>, Mingyi Yang <sup>3,4</sup>, Magnar Bjørås <sup>4,6</sup>  </strong></p>
-  
-  <p align="center">1. Department of Pathology, Oslo University Hospital - Norwegian Radium Hospital, Oslo, Norway </p>
-  <p align="center">2. Department of Clinical Molecular Biology in University of Oslo, Norway </p>
-  <p align="center">3. Department of Medical Biochemistry, Oslo University Hospital and University of Oslo, Oslo, Norway</p>
-  <p align="center">4. Department of Microbiology, Oslo University Hospital and University of Oslo, Oslo, Norway. </p>
-  <p align="center">5. Department of clinical molecular biology (EpiGen), Akershus University Hospital, Lørenskog, Norway </p>
-  <p align="center">6. Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology, Trondheim, Norway </p>
-<p align="center">*To whom correspondence should be addressed.Email: junbai.wang@medisin.uio.no </p>
 
 <head>
 	
@@ -24,20 +16,7 @@ bpb3 is a software tool for Bayesian method for protein-DNA interaction with bin
 
 
 
-## Abstract
 
-<p>It is a command line tool, which not only includes all R functions of previous BayesPI-BAR [1] and Python2 modules of BayesPI-BAR2[2,3], 
-but also add a number of new functions and modules in the new bpb3 package (e.g., preprocess of download data from ICGC data portal, 
-generate heatmap for predicted significant TF binding affinity changes, estimate significant TF binding affinity changes by using 
-either clustered PWMs [5] or a two levels approach, and clean temporary files et al.) Especially, the previous BayesPI-BAR programs 
-were implemented in Python2 and scatted to various command line scripts, which may not be suited for users with limited knowledge in Python. 
-Bpb3 is upgraded to Python3 and can be easily installed in either Linux or MAC OS system, which can be simply called by users as 
-the other build-in commands in the operating system. In particular, bpb3 provides a precompiled input parameter configure file, 
-in which user can modify various parameters associated with running bpb3 pipeline such as input/output file location and disable/enable certain steps in the pipeline. 
-Then, the parameter configure file can be directly loaded into bpb3 package for running the user desired calculation automatically. 
-It significantly simplifies the application of bpb3 in different tasks. Demos of these new functions and examples are provided in the package.
-</p>
-	
 ## Modules:
 [Home](index.md) | [Differential Expression](differential_expression.md) | [Gene Regions](gene_regions.md) | [Mussd](mussd.md) | [Highly Mutated Blocks](highly_mutated_blocks.md) | [BayesPiBar](bayespi_bar.md) | [Choose Background Parameters](choose_background_parameters.md) | [Background Affinity Changes](background_affinity_changes.md) | [Affinity Change Significance](affinity_change_significance_test.md) | [Parallel](parallel.md) | [Cluster for PWMs](make_cluster4pwm.md) | [bpb3 SelectedPWM](bpb3selectedPWM.md) | [Run Pipeline](run_pipeline.md) | [Clean temp](clean_tmp.md) 
 	
@@ -47,6 +26,7 @@ bpb3 is written in python. It can be installed and accessed from command line an
 
 Prior to installing the package, dependencies must be fulfilled. List of dependencies is as follows:
 <ul>
+	<li>bedtools</li>
 	<li>setuptools</li>
 	<li>itertools</li>
 	<li>pandas</li>
@@ -61,18 +41,9 @@ Prior to installing the package, dependencies must be fulfilled. List of depende
 	<li>scipy</li>
 	<li>tempfile</li>
 	<li>time</li>
-	<li>matlab.engine</li>
 	<li>numba</li>
-	<li>beautifulsoup4==4.9.3</li>
-	<li>bs4==0.0.1</li>
-	<li>fpdf==1.7.2</li>
-	<li>joblib==1.0.1</li>
-	<li>kiwisolver==1.3.1</li>
-	<li>matplotlib==3.3.4</li>
-	<li>Pillow==8.1.2</li>
-	<li>scikit-learn==0.24.1</li>
-	<li>sklearn==0.0</li>
-	</ul>
+
+</ul>
 It is advised to install dependencies using miniconda.
 Package contains a file requirments.txt which can be used for automatic installation of dependencies from conda or pip.
 To install the package, go to the bpb3_git directory and type: python setup.py install
@@ -96,12 +67,12 @@ For more details, follow the readme file in the package.
 <p>The package folder will contain following:
 	</p>
 <ul>
-	<li><code>final_demo</code> : Contains demo data sets.</li>
+	<li><code>final_demo</code> : Contains demo scripts.</li>
 	<li><code>bpb3</code> : Contains python soruce code of pipeline.</li>
 	<li><code>readme.txt</code> : Instructions about usage of package.</li>
 	<li><code>requirments.txt</code> :  List of requirments. Can be used for automatic installation from miniconda or pip.</li>
 	<li><code>setup.py</code>: Setup file for package.</li>
-	<li><code>final_demo_data</code>: Contains demo data.</li>
+	<li><code>final_demo_data</code>: Contains demo data in and out.</li>
 
 
 </ul>	
@@ -149,10 +120,10 @@ For more details of individual module and parameters, please go to repsective mo
 [clean_tmp](clean_tmp.md)  
 
 	
-## Demo
+## Secondary Funtions:
 <div class="container-fluid abstract_des">
 
-<p>Test run is available in final_demo folder.
+<p>Test run for use of secondary functions are available in final_demo folder.
 In folder bpb3/final_demo , there demos of following modules: </p>
 
 <ul>
@@ -168,32 +139,6 @@ In folder bpb3/final_demo , there demos of following modules: </p>
 	
 </ul>
 </div>
-
-## References
-
-1. BayesPI-BAR: a new biophysical model for characterization of regulatory sequence variations
-Junbai Wang and Kirill Batmanov
-Nucleic Acids Research 2015, July
-
-2. Integrative whole-genome sequence analysis reveals roles of regulatory mutations in BCL6 and BCL2 in follicular lymphoma.
-Batmanov K, Wang W, Bjoras M, Delabie J, Wang J.
-Sci Rep. 2017 Aug 1;7(1):7040. doi: 10.1038/s41598-017-07226-4.
-
-3. BayesPI-BAR2: a new Python package for predicting functional non-coding mutations in cancer patient cohorts.
-K. Batmanov , J. Delabie and JB Wang.
-Front Genet. 2019 Apr 2;10:282.
-
-4. HMST-Seq-Analyzer: A new python tool for differential methylation and hydroxymethylation analysis in various DNA methylation sequencing data.
-A. Farooq, S. GrÃ¸nmyr, O. Ali, T. Rognes, K. Scheffier, M. BjÃ¸rÃ¥s, JB. Wang.
-Computational and Structural Biotechnology Journal. 2020 September.
-
-5. abc4pwm: affinity based clustering for position weight matrices in applications of DNA sequence analysis.
-Omer Ali, Amna Farooq, Mingyi Yang, Victor X. Jin, Magnar BjÃ¸rÃ¥s and Junbai Wang.
-BMC Bioinformatics. 2022 March.
-
-6. Integrating whole genome sequencing, methylation, gene expression, topological associated domain information in regulatory mutation prediction: a study of follicular lymphoma.
-Amna Farooq, Gunhild TrÃ¸en, Jan Delabie, Junbai Wang.
-Computational and Structural Biotechnology Journal. 2022 March.
 
 	
           		 
