@@ -1,10 +1,9 @@
 
  
-<img align="center" src="https://user-images.githubusercontent.com/79196757/180248926-efd6e216-0683-4549-99f0-e6783224a2c7.png">  
-<img align="right" src="https://user-images.githubusercontent.com/79196757/180251608-da859f67-aa58-49e8-bea8-a0258be93635.png">  
-<img align="left" src="https://user-images.githubusercontent.com/79196757/180251606-8e257ad0-86d5-4cb7-b549-ed5e5c0aa9eb.jpg">  
+<img align="center" src="https://user-images.githubusercontent.com/79196757/180248926-efd6e216-0683-4549-99f0-e6783224a2c7.png">
+<img align="right" src="https://user-images.githubusercontent.com/79196757/180251608-da859f67-aa58-49e8-bea8-a0258be93635.png"><img align="left" src="https://user-images.githubusercontent.com/79196757/180251606-8e257ad0-86d5-4cb7-b549-ed5e5c0aa9eb.jpg">  
 
-
+### 
 
 
 # BayesPI-BAR in Python3 - bpb3 Documentation
