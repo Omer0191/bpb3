@@ -14,8 +14,7 @@ bpb3 is a software tool for Bayesian method for protein-DNA interaction with bin
 
 
 ## Modules:
-[Home](index.md) | [Differential Expression](differential_expression.md) | [Gene Regions](gene_regions.md) | [Mussd](mussd.md) | [Highly Mutated Blocks](highly_mutated_blocks.md) | [BayesPiBar](bayespi_bar.md) | [Choose Background Parameters](choose_background_parameters.md) | [Background Affinity Changes](background_affinity_changes.md) | [Affinity Change Significance](affinity_change_significance_test.md) | [Parallel](parallel.md) | [Cluster for PWMs](make_cluster4pwm.md) | [bpb3 SelectedPWM](bpb3selectedPWM.md) | [Run Pipeline](run_pipeline.md) | [Clean temp](clean_tmp.md) 
-	
+[Home](index.md) | [Differential Expression](differential_expression.md) | [Gene Regions](gene_regions.md) | [Mussd](mussd.md) | [Highly Mutated Blocks](highly_mutated_blocks.md) | [BayesPiBar](bayespi_bar.md) | [Choose Background Parameters](choose_background_parameters.md) | [Background Affinity Changes](background_affinity_changes.md) | [Affinity Change Significance](affinity_change_significance_test.md) | [Parallel](parallel.md) | [Cluster for PWMs](make_cluster4pwm.md) | [bpb3 SelectedPWM](bpb3selectedPWM.md) 
 ## How to start:
 <div class="container-fluid abstract_des">
 bpb3 is written in python. It can be installed and accessed from command line and is avalible for both linux and mac operating systems. The package can be downloaded <strong> here </strong> .
@@ -112,8 +111,7 @@ For more details of individual module and parameters, please go to repsective mo
 [parallel](parallel.md)  
 [make_cluster4pwm](make_cluster4pwm.md)  
 [bpb3selectedPWM](bpb3selectedPWM.md)  
-[run_pipeline](run_pipeline.md)  
-[clean_tmp](clean_tmp.md)  
+  
 
 	
 ## Secondary Funtions:
