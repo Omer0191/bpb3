@@ -9,3 +9,19 @@ bpb3 is a software tool for Bayesian method for protein-DNA interaction with bin
 
 ## clean_tmp
 <p>Clean temporary files in output folders, default only clean temporary files in background output. This function will remove intermediate result files that are not used anywhere so that it will reduce the result file size. </p>
+
+### Required Parameters:
+<ul>
+   <li><code>background_out_file: </code> Background calculation output file folder</li>
+<li><code>foreground_out_file: </code> Foreground calculation output file folder</li>
+  <li><code>background_pwm_file: </code> Background PWM file folder</li>
+<li><code>chemical_potentials: </code>A list of chemical potentials used in the calculations, space separeted string</li>
+
+</ul>
+
+### Optional Parameters:
+
+<ul>
+   <li><code>clean_both: </code> whether clean both foreground and background temporary files, default 0 for cleaning background, or 1 for foreground, or 2 for cleaning both foreground and background</li>
+
+</ul>
