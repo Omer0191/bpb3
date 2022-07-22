@@ -62,12 +62,12 @@ For more details, follow the readme file in the package.
 <p>The package folder will contain following:
 	</p>
 <ul>
-	<li><code>final_demo</code> : Contains demo scripts.</li>
+	<li><code>final_demo</code> : Contains seondary functions scripts.</li>
 	<li><code>bpb3</code> : Contains python soruce code of pipeline.</li>
 	<li><code>readme.txt</code> : Instructions about usage of package.</li>
-	<li><code>requirments.txt</code> :  List of requirments. Can be used for automatic installation from miniconda or pip.</li>
+	<li><code>requirments.txt</code> :  List of requirements. Can be used for automatic installation from miniconda or pip.</li>
 	<li><code>setup.py</code>: Setup file for package.</li>
-	<li><code>final_demo_data</code>: Contains demo data in and out.</li>
+	<li><code>final_demo_data</code>: Contains data in and out for the secondary functions.</li>
 
 
 </ul>	
