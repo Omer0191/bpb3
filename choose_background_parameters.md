@@ -3,7 +3,7 @@
 bpb3 is a software tool for Bayesian method for protein-DNA interaction with binding affinity Ranking in Python3.
 
 
-[Home](index.md) | [Differential Expression](differential_expression.md) | [Gene Regions](gene_regions.md) | [Mussd](mussd.md) | [Highly Mutated Blocks](highly_mutated_blocks.md) | [BayesPiBar](bayespi_bar.md) | [Choose Background Parameters](choose_background_parameters.md) | [Background Affinity Changes](background_affinity_changes.md) | [Affinity Change Significance](affinity_change_significance_test.md) | [Parallel](parallel.md) | [Cluster for PWMs](make_cluster4pwm.md) | [bpb3 SelectedPWM](bpb3selectedPWM.md)  | [Run Pipeline](run_pipeline.md) 
+[Home](index.md) | [Differential Expression](differential_expression.md) | [Gene Regions](gene_regions.md) | [Mussd](mussd.md) | [Highly Mutated Blocks](highly_mutated_blocks.md) | [BayesPiBar](bayespi_bar.md) | [Choose Background Parameters](choose_background_parameters.md) | [Background Affinity Changes](background_affinity_changes.md) | [Affinity Change Significance](affinity_change_significance_test.md) | [Parallel](parallel.md) | [Cluster for PWMs](make_cluster4pwm.md) | [bpb3 SelectedPWM](bpb3selectedPWM.md)  | [Run Pipeline](run_pipeline.md) | [clean_tmp](clean_tmp.md)  
 
 
 ## choose_background_parameters
@@ -43,4 +43,13 @@ bpb3 is a software tool for Bayesian method for protein-DNA interaction with bin
   <li><code>p_value_cutoff: </code> aximum dbA p-value to consider protein-DNA binding significanti, default=0.1</li>
   <li><code>reuse_output: </code> do not recompute the random blocks and their dbA values if they are already present in the result folder. This mode can handle partially computed results from an interrupted computation. Only the missing or corrupted output will be recomputed, default is False</li>
 <li><code>start_from_integration: </code>do not compute the random blocks and their delta-dbA values,assume they are already computed. Start from integration, default is False</li>
+</ul>
+
+### Parallelization Paramters:
+<ul>
+  <li><code>use_cores: </code>number of cores to use on one machine </li>
+<li><code>use_slurm: </code>use SLURM workload manager to distribute computations across nodes</li>
+  <li><code>slurm_account: </code> SLURM account name</li>
+<li><code>max_nodes: </code>maximum number of nodes to allocate when using SLURM</li>
+
 </ul>
