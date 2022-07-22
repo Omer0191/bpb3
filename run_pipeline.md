@@ -8,3 +8,11 @@ bpb3 is a software tool for Bayesian method for protein-DNA interaction with bin
 
 
 ## Run_pipeline
+
+<p> Run BayeaPI-BAR3 full pipeline with a proper bpb3 configure file. If clustered PWMs are used in the calcuation then it is the first level analysis of bpb3. The second level analysis of bpb3, which evaluates the top N PWMs from the ranking test of the first analysis, can be achieved by function bpb3selectedPWM. </p>
+
+### Required Parameter:
+### Required Parameters:
+<ul>
+  <li><code>import_bpb3_config: </code>File for import bpb3 configure file , and the name shall be bpb3_config.py. Download the config file [here](https://github.com/Omer0191/bpb3-Documentation/blob/main/bpb3_clusterPWM_config_fl.py.gz)  </li>
+</ul>
