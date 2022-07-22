@@ -8,6 +8,7 @@ bpb3 is a software tool for Bayesian method for protein-DNA interaction with bin
 ## bayespi_bar
 <p>BayesPI-BAR delta-dbA ranking computation for TFs binding affinity changes affected by DNA mutations. This program computes rankings of given PWMs/clustered PWMs according to predicted effects of given sequence variants. This module needs following paramters. Details are given as under: </p>
 
+### Optional Paramters:
 <ul>
   <li><code>chemical_potentials: (str) </code>list of chemical potentials to use (e.g.,none -10 -13 -15 .. ), default is None </li>
   <li><code>reference_sequences: </code>FASTA file with reference sequences, default is None.</li>
