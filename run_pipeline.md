@@ -14,7 +14,7 @@ bpb3 is a software tool for Bayesian method for protein-DNA interaction with bin
 ### Required Parameters:
 
 <ul>
-  <li><code>import_bpb3_config: </code>File for import bpb3 configure file , and the name shall be bpb3_config.py.</li>
+  <li><code>import_bpb3_config: </code>File for import bpb3 configure file , and the name shall be bpb3_config.py. Sample config file can be download from below. </li>
 </ul>
 Download the config file <strong><a href="https://github.com/Omer0191/omer0191.github.io/blob/master/abc4pwm_code_demo.tar.gz">here.</a></strong> 
 
