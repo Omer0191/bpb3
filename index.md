@@ -143,3 +143,4 @@ In folder bpb3/final_demo , there demos of following modules: </p>
          		
          	
 Having trouble with package? Contact us @ junbai.wang@medisin.uio.no and we will be glad to help you.
+You can also go to <a href="https://bpb3.github.io/bpb3/">https://bpb3.github.io/bpb3/</a> for more information on demos and installation.
