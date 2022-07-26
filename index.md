@@ -136,7 +136,7 @@ In folder bpb3/final_demo , there demos of following modules: </p>
 
 ## Details of Secondary Funtions:
 
-For more details of individual function and parameters, please go to repsective page.
+For more details of individual function and parameters, please go to repsective page.  
  [plot_result](plot_result.md)  
  [filter_results_by_gene_expression_cluster4pwm](filter_results_by_gene_expression_cluster4pwm.md)  
  [filter_results_by_gene_expression](filter_results_by_gene_expression.md)  
