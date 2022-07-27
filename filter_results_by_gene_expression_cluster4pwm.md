@@ -5,6 +5,7 @@ bpb3 is a software tool for Bayesian method for protein-DNA interaction with bin
 ## Secondary Functions
 
 ## filter_results_by_gene_expression_cluster4pwm
+<p>This function will filter TFs with too low expresssion (e.g., RPKM<0.03) from the results producted by affinity_change_significance_test.py for clustered PWMs. Warning : this program is for demo purpose </p>
 
 
 ### Requried Parameters:
