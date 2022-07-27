@@ -1,4 +1,9 @@
-# Parameter Configuration
+# BayesPI-BAR in Python3 - bpb3 Documentation
+
+bpb3 is a software tool for Bayesian method for protein-DNA interaction with binding affinity Ranking in Python3.
+
+
+## Parameter Configuration
 
 <div class="container-fluid abstract_des">
 This bpb3 parameter configure is for demo purpose
@@ -557,7 +562,7 @@ for example, using enhancer regions overlapping with Differential Methylation Re
 <pre class="bash"><code class="hljs"><span class="hljs-comment"> runCluster4PWM=True  </span></code></pre>
 </div>
 
-
+[Home](index.md)
 		
 
 	
