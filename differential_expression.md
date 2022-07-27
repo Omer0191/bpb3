@@ -23,7 +23,8 @@ bpb3 is a software tool for Bayesian method for protein-DNA interaction with bin
   <li><code>group_2_count_files: </code>List of files with read counts for group 2 (e.g., normal group).Each file must have at least two columns: gene name and count.</li>
   <li><code>gene_lengths: </code>File with two columns: gene name and its length. Only genes listed in this file will be considered in the computation. Note that RPKM computation is affected by the set of considered genes".</li>
   
-</ul>
+</ul>  
+[Home](index.md)
 
 
 ## Optional Parameters
