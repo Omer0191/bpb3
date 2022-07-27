@@ -20,8 +20,6 @@ bpb3 is a software tool for Bayesian method for protein-DNA interaction with bin
                         default is ~</li>
 <li><code>initial_string2clusteredPWMs: </code>initial string for clustered PWMs such as
                         quality_assessed~NAME~default is quality_assessed</li>
-  <li><code>: </code> </li>
-<li><code>: </code></li>
-  <li><code>: </code> </li>
+
     
 </ul>
