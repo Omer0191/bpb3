@@ -6,6 +6,8 @@ bpb3 is a software tool for Bayesian method for protein-DNA interaction with bin
 
 ## make_plots_cluster4pwm
 
+This is a demo script to generate heatmaps for all significant mutation blocks that affect TF binding based on calculation of clustered PWMs
+
 ### Required Parameters:
 
 <ul>
