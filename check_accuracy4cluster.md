@@ -6,6 +6,8 @@ bpb3 is a software tool for Bayesian method for protein-DNA interaction with bin
 
 ## check_accuracy4cluster
 
+This is a demo for checking accuracy of predicted results in 67 SNPs based on clustered PWMs
+
 ### Required Parameters:
 <ul>
   <li><code> in_cluster_out_path: </code> File path contains all clustered PWMs and uncertain
