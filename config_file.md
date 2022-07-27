@@ -6,7 +6,7 @@ bpb3 is a software tool for Bayesian method for protein-DNA interaction with bin
 ## Parameter Configuration
 
 <div class="container-fluid abstract_des">
-This bpb3 parameter configure is for demo purpose
+This bpb3 parameter configure file will be directly loaded to bpb3 by run_pipeline module for running BayesPI-BAR2 analysis pipeline automatically with the predefined parameters.
 </div>	
 
 ### Required libraries
