@@ -146,7 +146,8 @@ For more details of individual function and parameters, please go to repsective 
  [check_accuracy](check_accuracy.md)  
  [filterDEG4bpb3](filterDEG4bpb3.md)  
  [preprocess_icgc_data](preprocess_icgc_data.md)  
- 
+ [Run Pipeline](run_pipeline.md)
+ [clean_tmp](clean_tmp.md)
           		 
          	
            			
