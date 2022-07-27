@@ -2,6 +2,8 @@
 
 bpb3 is a software tool for Bayesian method for protein-DNA interaction with binding affinity Ranking in Python3.
 
+## Secondary Functions
+
 ## make_plots_cluster4pwm
 
 ### Required Parameters:
@@ -22,4 +24,5 @@ bpb3 is a software tool for Bayesian method for protein-DNA interaction with bin
                         quality_assessed~NAME~default is quality_assessed</li>
 
     
-</ul>
+</ul>  
+[Home](index.md)
