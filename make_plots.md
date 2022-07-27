@@ -5,7 +5,7 @@ bpb3 is a software tool for Bayesian method for protein-DNA interaction with bin
 ## Secondary Functions
 
 ## make_plots
-
+This is a demo for checking accuracy of predicted results in 67 SNPs based on clustered PWMs.
 
 ### Required Parameters:
 
