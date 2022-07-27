@@ -2,6 +2,8 @@
 
 bpb3 is a software tool for Bayesian method for protein-DNA interaction with binding affinity Ranking in Python3.
 
+## Secondary Functions
+
 ## plot_result
 
 <ul>
@@ -29,4 +31,5 @@ bpb3 is a software tool for Bayesian method for protein-DNA interaction with bin
                         instead of PWM file names (the second column) for plot
                         labels</li>
   
-</ul>
+</ul>  
+[Home](index.md)
