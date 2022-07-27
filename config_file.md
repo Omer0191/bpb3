@@ -22,10 +22,10 @@ This bpb3 parameter configure file will be directly loaded to bpb3 by run_pipeli
 	</div>	
 
 
-## Setup main Paths and folders
+### Setup main Paths and folders
 
 
-### Project main Output path
+#### Project main Output path
 <p> Use this paramter to set project main output path
 	</p>
 
@@ -69,7 +69,7 @@ This bpb3 parameter configure file will be directly loaded to bpb3 by run_pipeli
 <pre class="bash"><code class="hljs"><span class="hljs-comment"> genome_folder=os.path.abspath("../../final_demo_data/genome_data/hg19/")</span></code></pre>
 </div>
 
-##### Input human genome sequence
+#### Input human genome sequence
 <p>Use following code to set up Input human genome sequence
 	</p>
 <div class="container-fluid abstract_des">
@@ -487,80 +487,82 @@ for example, using enhancer regions overlapping with Differential Methylation Re
 <pre class="bash"><code class="hljs"><span class="hljs-comment">max_ranking_for_significant_blocks= 30</span></code></pre>
 </div>
 
-## End of Parameter setup, below options for running each of the analysis pipeline in bpb3 
+### End of Parameter setup, below options for running each of the analysis pipeline in bpb3 
+
+
 ## 8. Use True or False to either enable or disable the corresponding analysis step when running bpb3 #####
 
-#### step 1. differential expression analysis
+### step 1. differential expression analysis
 <p>Use following code to set up differential expression analysis
 	</p>
 <div class="container-fluid abstract_des">
 <pre class="bash"><code class="hljs"><span class="hljs-comment"> runDiffExp= True</span></code></pre>
 </div>
 
-#### step 2: region extraction
+### step 2: region extraction
 <p>Use following code to set up region extraction
 	</p>
 <div class="container-fluid abstract_des">
 <pre class="bash"><code class="hljs"><span class="hljs-comment">runRegionsFile= True</span></code></pre>
 </div>
 
-#### step 3: mussd mutation block detection
+### step 3: mussd mutation block detection
 <p>Use following code to set up mussd mutation block detection
 	</p>
 <div class="container-fluid abstract_des">
 <pre class="bash"><code class="hljs"><span class="hljs-comment"> runMussd= True</span></code></pre>
 </div>
 
-#### step 4: highly mutated mutation block test
+### step 4: highly mutated mutation block test
 <p>Use following code to set up highly mutated mutation block test
 	</p>
 <div class="container-fluid abstract_des">
 <pre class="bash"><code class="hljs"><span class="hljs-comment"> runHighMutBlocks= True</span></code></pre>
 </div>
 
-#### step 5: do foreground bayespi-bar calculation
+### step 5: do foreground bayespi-bar calculation
 <p>Use following code to set up to do foreground bayespi-bar calculation
 	</p>
 <div class="container-fluid abstract_des">
 <pre class="bash"><code class="hljs"><span class="hljs-comment"> runBayesPiBAR= True</span></code></pre>
 </div>
 
-#### step 6: do background bayespi-bar calcuation
+### step 6: do background bayespi-bar calcuation
 <p>Use following code to set up to do background bayespi-bar calcuation
 	</p>
 <div class="container-fluid abstract_des">
 <pre class="bash"><code class="hljs"><span class="hljs-comment">runBackgroundModel= True</span></code></pre>
 </div>
 
-#### step 7: do TF affinity change significance test
+### step 7: do TF affinity change significance test
 <p>Use following code to set up to do TF affinity change significance test
 	</p>
 <div class="container-fluid abstract_des">
 <pre class="bash"><code class="hljs"><span class="hljs-comment"> runBlockSignificance= True</span></code></pre>
 </div>
 
-#### step 8: filter TF by gene expression level
+### step 8: filter TF by gene expression level
 <p>Use following code to set up to filter TF by gene expression level
 	</p>
 <div class="container-fluid abstract_des">
 <pre class="bash"><code class="hljs"><span class="hljs-comment">filterTFbyGene=True</span></code></pre>
 </div>
 
-#### step 9: plot heatmap for TFs with significaly changed binding affinity
+### step 9: plot heatmap for TFs with significaly changed binding affinity
 <p>Use following code to set up the plot heatmap for TFs with significaly changed binding affinity
 	</p>
 <div class="container-fluid abstract_des">
 <pre class="bash"><code class="hljs"><span class="hljs-comment"> isPlot=True  </span></code></pre>
 </div>
 
-#### step 10: remove temporary files in both foreground and background calculations
+### step 10: remove temporary files in both foreground and background calculations
 <p>Use following code to set up to remove temporary files in both foreground and background calculations
 	</p>
 <div class="container-fluid abstract_des">
 <pre class="bash"><code class="hljs"><span class="hljs-comment"> runRemoveTempFile= True </span></code></pre>
 </div>
 
-#### option step: if the input PWMs are clustered PWMs from abc4pwm, then this option shall be True, otherwise it is False.
+### option step: if the input PWMs are clustered PWMs from abc4pwm, then this option shall be True, otherwise it is False.
 <p>Use following code to set up 
 	</p>
 <div class="container-fluid abstract_des">
