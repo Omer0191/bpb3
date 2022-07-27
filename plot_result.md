@@ -13,8 +13,7 @@ bpb3 is a software tool for Bayesian method for protein-DNA interaction with bin
                         significant affinity changes, produced by
                         affinity_change_significance_test.py
 </li>
-<li><code>: </code></li>
-  <li><code>: </code> </li>
+
   
 </ul>
 
@@ -29,6 +28,5 @@ bpb3 is a software tool for Bayesian method for protein-DNA interaction with bin
 <li><code>use_tags: </code>use the last column of the --significant_pwms file
                         instead of PWM file names (the second column) for plot
                         labels</li>
-  <li><code>: </code> </li>
   
 </ul>
