@@ -59,9 +59,14 @@ This bpb3 parameter configure file will be directly loaded to bpb3 by run_pipeli
 <p>Use following code to set up Project name in logo file
 	</p>
 <div class="container-fluid abstract_des">
-<pre class="bash"><code class="hljs"><span class="hljs-comment"> project_name='demo4_fl_cohort_smallcluster4pwm'
+<pre class="bash"><code class="hljs"><span class="hljs-comment"> project_name='demo4_fl_cohort_smallcluster4pwm'</span></code></pre>
+</div>
 
-  </span></code></pre>
+#### Input Genome path
+<p>Use following code to set up Project name in logo file
+	</p>
+<div class="container-fluid abstract_des">
+<pre class="bash"><code class="hljs"><span class="hljs-comment"> genome_folder=os.path.abspath("../../final_demo_data/genome_data/hg19/")</span></code></pre>
 </div>
 
 ##### Input human genome sequence
@@ -214,7 +219,7 @@ This bpb3 parameter configure file will be directly loaded to bpb3 by run_pipeli
 </div>
 
 
-####  whether to do z-score transformation of RPKM values, True or False
+####  z-score transformation of RPKM values, True or False
 <p> Whether to do z-score transformation of RPKM values, True or False. Use following code to set up whether to do z-score transformation of RPKM values, True or False
 	</p>
 <div class="container-fluid abstract_des">
@@ -442,7 +447,7 @@ for example, using enhancer regions overlapping with Differential Methylation Re
 <pre class="bash"><code class="hljs"><span class="hljs-comment"> background_command_file = os.path.join(out_data_folder, "make_background.sh")</span></code></pre>
 </div>
 
-#### 7. mutation signature definition for generating background mutations, set to None to disable
+## 7. mutation signature definition for generating background mutations, set to None to disable
 <p>Use following code to set up mutation signature definition for generating background mutations, set to None to disable
 	</p>
 <div class="container-fluid abstract_des">
@@ -458,8 +463,8 @@ for example, using enhancer regions overlapping with Differential Methylation Re
 <pre class="bash"><code class="hljs"><span class="hljs-comment"> tumor_mutations_as_background = True</span></code></pre>
 </div>
 
-####  Results selection options for significant affinity changes
-# P value for ranksum test in the output
+###  Results selection options for significant affinity changes
+#### P value for ranksum test in the output
 <p>Use following code to set up P value for ranksum test in the output
 	</p>
 <div class="container-fluid abstract_des">
@@ -483,7 +488,7 @@ for example, using enhancer regions overlapping with Differential Methylation Re
 </div>
 
 ## End of Parameter setup, below options for running each of the analysis pipeline in bpb3 
-#### 8. Use True or False to either enable or disable the corresponding analysis step when running bpb3 #####
+## 8. Use True or False to either enable or disable the corresponding analysis step when running bpb3 #####
 
 #### step 1. differential expression analysis
 <p>Use following code to set up differential expression analysis
