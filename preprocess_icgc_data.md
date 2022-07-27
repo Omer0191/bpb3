@@ -6,6 +6,7 @@ bpb3 is a software tool for Bayesian method for protein-DNA interaction with bin
 
 ## preprocess_icgc_data
 
+This is a demo script for getting and preprocessing of ICGC data before running bpb3
 
 ### Required Parameters:
 
