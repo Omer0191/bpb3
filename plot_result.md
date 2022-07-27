@@ -5,7 +5,7 @@ bpb3 is a software tool for Bayesian method for protein-DNA interaction with bin
 ## Secondary Functions
 
 ## plot_result
-
+<p> This demoe script produces heatmaps like the one in the package paper. For general use, you may need to edit the layout, font sizes etc. so that everything is visible.</p>
 <ul>
   <li><code>background_folder: </code>folder containing the computed background model
                         produced by background_affinity_changes.py </li>
