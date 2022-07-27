@@ -5,6 +5,7 @@ bpb3 is a software tool for Bayesian method for protein-DNA interaction with bin
 ## Secondary Functions
 
 ## filterDEG4bpb3
+This is a demo script to filter differential expression gene (DEG) list exported by bpb3 by using rratio and minimum RPKM in each group
 
 ### Required Parameters
 <ul>
