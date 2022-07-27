@@ -18,5 +18,7 @@ bpb3 is a software tool for Bayesian method for protein-DNA interaction with bin
 </ul>
 Configuration file is explained in detail:  
 [here](config_file.md)
-Download the config file <strong><a href="https://github.com/Omer0191/bpb3-Documentation/raw/main/bpb3_clusterPWM_config_fl.py.gz">here.</a></strong> 
+
+
+Download the sample config file <strong><a href="https://github.com/Omer0191/bpb3-Documentation/raw/main/bpb3_clusterPWM_config_fl.py.gz">here.</a></strong> 
 
