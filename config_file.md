@@ -63,7 +63,7 @@ This bpb3 parameter configure file will be directly loaded to bpb3 by run_pipeli
 </div>
 
 #### Input Genome path
-<p>Use following code to set up Project name in logo file
+<p>In the genome_folder contains genome sequence fasta file and gene annotation  gtf file .
 	</p>
 <div class="container-fluid abstract_des">
 <pre class="bash"><code class="hljs"><span class="hljs-comment"> genome_folder=os.path.abspath("../../final_demo_data/genome_data/hg19/")</span></code></pre>
@@ -75,6 +75,8 @@ This bpb3 parameter configure file will be directly loaded to bpb3 by run_pipeli
 <div class="container-fluid abstract_des">
 <pre class="bash"><code class="hljs"><span class="hljs-comment"> genome_fasta_file= os.path.join(genome_folder, "human_g1k_v37_decoy.fasta")</span></code></pre>
 </div>
+Human genome sequence "human_g1k_v37_decoy.fasta" can be download from
+<a href="https://gatk.broadinstitute.org/hc/en-us/articles/360035890711-GRCh37-hg19-b37-humanG1Kv37-Human-Reference-Discrepancies#hg19"> this link</a>
 
 ####  Input gtf file of human genes from GenCode
 <p>Use following code to set up Input gtf file of human genes from GenCode
@@ -82,6 +84,7 @@ This bpb3 parameter configure file will be directly loaded to bpb3 by run_pipeli
 <div class="container-fluid abstract_des">
 <pre class="bash"><code class="hljs"><span class="hljs-comment"> gene_annotation_file= os.path.join(genome_folder, "gencode.v19.annotation.gtf")</span></code></pre>
 </div>
+Human genome "gencode.v19.annotation.gtf" file can be obtained from <a href="https://www.gencodegenes.org/human/release_10.html"> this link.</a>
 
 #### Project output folders for foreground and background calculations
 <p>Use following code to set up Project output folders for foreground and background calculations
